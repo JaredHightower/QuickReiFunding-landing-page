@@ -6,6 +6,32 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  font-family: "ITC Avant Garde Gothic Std", sans-serif;
+  src: url("../public/fonts/ITCAvantGardeStd-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  font-family: "ITC Avant Garde Gothic Std", sans-serif;
+  src: url("../public/fonts/ITCAvantGardeStd-Bk.otf") format("otf");
+}
+
+/* @font-face {
+  font-family: "ITC Avant Garde Gothic Std", sans-serif;
+  src: url("../public/fonts/ITCAvantGardeStd-BkObl.otf");
+  src: url("../public/fonts/ITCAvantGardeStd-Demi.otf");
+  src: url("../public/fonts/ITCAvantGardeStd-Md.otf");
+  src: url("../public/fonts/QueensCompressed-Regular.ttf");
+
+  font-style: normal;
+} */
+
 a {
   color: inherit;
   text-decoration: none;
@@ -21,6 +47,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: white;
   }
 }

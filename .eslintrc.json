@@ -1,3 +1,62 @@
 {
-  "extends": "next/core-web-vitals"
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": ["prettier", "@typescript-eslint", "react-hooks"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "amd": true,
+    "es2020": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "prettier/prettier": ["error", {}, { "usePrettierrc": false }], // Use our .prettierrc file as source
+    "react/forbid-elements": ["error"],
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "eqeqeq": ["error", "always"],
+    "react/prop-types": "off", // Off, since we'll shift to TS
+    "react/no-unescaped-entities": "warn", // Change to warning
+    "no-console": "off", // Leaving it as a warning until we do some code cleanup
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "@typescript-eslint/no-var-requires": "warn",
+    "@next/next/no-img-element": "off" // Sometimes unknown image src hostname
+  },
+  "globals": {
+    "React": "writable"
+  },
+  "ignorePatterns": [
+    "public/",
+    "node_modules/",
+    "tmp/",
+    ".next/",
+    ".vscode/",
+    ".husky/",
+    ".github/"
+  ]
 }
