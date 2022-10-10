@@ -14,6 +14,7 @@ export const CallToActionButton = styled.button<CallToActionButtonProps>`
   font-weight: 700;
   font-size: 0.875rem;
   text-transform: uppercase;
+  font-family: "ITC Avant Garde Gothic W01 Bd";
 
   border-radius: 0px 30px;
   padding: 1.44rem 2.81rem;

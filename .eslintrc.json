@@ -27,15 +27,15 @@
     "next/core-web-vitals"
   ],
   "rules": {
-    "prettier/prettier": ["error", {}, { "usePrettierrc": false }], // Use our .prettierrc file as source
+    "prettier/prettier": ["error", {}, { "usePrettierrc": false }],
     "react/forbid-elements": ["error"],
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
     "eqeqeq": ["error", "always"],
-    "react/prop-types": "off", // Off, since we'll shift to TS
-    "react/no-unescaped-entities": "warn", // Change to warning
-    "no-console": "off", // Leaving it as a warning until we do some code cleanup
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "warn",
+    "no-console": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
@@ -45,7 +45,7 @@
       }
     ],
     "@typescript-eslint/no-var-requires": "warn",
-    "@next/next/no-img-element": "off" // Sometimes unknown image src hostname
+    "@next/next/no-img-element": "off"
   },
   "globals": {
     "React": "writable"
@@ -56,7 +56,6 @@
     "tmp/",
     ".next/",
     ".vscode/",
-    ".husky/",
     ".github/"
   ]
 }

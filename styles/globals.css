@@ -9,28 +9,47 @@ body {
 @font-face {
   font-style: normal;
   font-display: swap;
-  font-weight: 700;
-  font-family: "ITC Avant Garde Gothic Std", sans-serif;
-  src: url("../public/fonts/ITCAvantGardeStd-Bold.otf") format("otf");
+  font-weight: 300;
+  font-family: "ITC Avant Garde Gothic W01 Bk";
+  src: url("/fonts/ITC-Avant-Garde-Gothic-Book.woff2") format("woff2"),
+    url("/fonts/ITC-Avant-Garde-Gothic-Book.woff") format("woff");
 }
 
 @font-face {
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  font-family: "ITC Avant Garde Gothic Std", sans-serif;
-  src: url("../public/fonts/ITCAvantGardeStd-Bk.otf") format("otf");
+  font-family: "ITC Avant Garde GothicW01BkObl";
+  src: url("/fonts/ITC-Avant-Garde-Gothic-Medium.woff2") format("woff2"),
+    url("/fonts/ITC-Avant-Garde-Gothic-Medium.woff") format("woff");
 }
 
-/* @font-face {
-  font-family: "ITC Avant Garde Gothic Std", sans-serif;
-  src: url("../public/fonts/ITCAvantGardeStd-BkObl.otf");
-  src: url("../public/fonts/ITCAvantGardeStd-Demi.otf");
-  src: url("../public/fonts/ITCAvantGardeStd-Md.otf");
-  src: url("../public/fonts/QueensCompressed-Regular.ttf");
-
+@font-face {
   font-style: normal;
-} */
+  font-display: swap;
+  font-weight: 500;
+  font-family: "ITC Avant Garde Gothic W01 Md";
+  src: url("/fonts/ITC-Avant-Garde-Gothic-Book-Oblique.woff2") format("woff2"),
+    url("/fonts/ITC-Avant-Garde-Gothic-Book-Oblique.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  font-family: "ITC Avant Garde Gothic W01 Dm";
+  src: url("/fonts/ITC-Avant-Garde-Gothic-Demi-Bold.woff2") format("woff2"),
+    url("/fonts/ITC-Avant-Garde-Gothic-Demi-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  font-family: "ITC Avant Garde Gothic W01 Bd";
+  src: url("/fonts/ITC-Avant-Garde-Gothic-Bold.woff2") format("woff2"),
+    url("/fonts/ITC-Avant-Garde-Gothic-Bold.woff") format("woff");
+}
 
 a {
   color: inherit;

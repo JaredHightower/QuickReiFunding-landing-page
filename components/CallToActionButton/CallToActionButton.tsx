@@ -12,8 +12,10 @@ export const CallToActionButton = ({
   width,
 }: CallToActionButtonProps): JSX.Element => {
   return (
-    <Styles.CallToActionButton color={color} height={height} width={width}>
-      Get Started
-    </Styles.CallToActionButton>
+    <a href="https://vs6msjf6pxd.typeform.com/to/ZTHbdIav">
+      <Styles.CallToActionButton color={color} height={height} width={width}>
+        Get Started
+      </Styles.CallToActionButton>
+    </a>
   );
 };
