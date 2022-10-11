@@ -1,8 +1,6 @@
 import Image from "next/image";
 import styled from "styled-components";
 
-import { CallToActionButton } from "../../CallToActionButton/CallToActionButton.styles";
-
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -31,12 +29,6 @@ export const Description = styled.span`
   line-height: 2.188rem;
   margin-bottom: 3.375rem;
   font-family: "ITC Avant Garde Gothic W01 Bk";
-`;
-
-export const HeroContentCallToActionButton = styled(CallToActionButton)`
-  font-size: 0.94rem;
-  color: #3dbdc7;
-  background-color: white;
 `;
 
 export const HeroImageContainer = styled.div`

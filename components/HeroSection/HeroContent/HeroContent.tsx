@@ -1,10 +1,15 @@
 import React from "react";
-import { HEADING_DESCRIPTION, HERO_IMAGE } from "./HeroContent.const";
+import { CallToActionButton } from "../../CallToActionButton/CallToActionButton";
+import {
+  HEADING_DESCRIPTION,
+  HERO_IMAGE,
+  HERO_CALL_TO_ACTION_BUTTON_BG,
+  HERO_CALL_TO_ACTION_BUTTON_TEXT,
+} from "./HeroContent.const";
 import {
   Container,
   Description,
   Heading,
-  HeroContentCallToActionButton,
   HeroImage,
   HeroImageContainer,
   Wrapper,
@@ -18,9 +23,12 @@ export const HeroContent = (): JSX.Element => {
           The Easy Way <br /> To Find And Fund Properties
         </Heading>
         <Description>{HEADING_DESCRIPTION}</Description>
-        <HeroContentCallToActionButton>
+        <CallToActionButton
+          bgColor={HERO_CALL_TO_ACTION_BUTTON_BG}
+          textColor={HERO_CALL_TO_ACTION_BUTTON_TEXT}
+        >
           Get Started
-        </HeroContentCallToActionButton>
+        </CallToActionButton>
       </Container>
       <HeroImageContainer>
         <HeroImage
