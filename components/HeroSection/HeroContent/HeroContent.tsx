@@ -20,7 +20,9 @@ export const HeroContent = (): JSX.Element => {
     <Wrapper>
       <Container>
         <Heading>
-          The Easy Way <br /> To Find And Fund Properties
+          {/* The Easy Way <br /> To Find And Fund Properties */}
+          Get The Funds <br />
+          You Need, When You Need Them
         </Heading>
         <Description>{HEADING_DESCRIPTION}</Description>
         <CallToActionButton

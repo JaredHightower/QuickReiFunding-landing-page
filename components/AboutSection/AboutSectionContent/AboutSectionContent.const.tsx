@@ -1,12 +1,9 @@
 export const ABOUT_SECTION_HEADING = "about Quick REI Funding";
 export const ABOUT_SECTION_DESCRIPTION_ONE = `
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit, sed do eiusmod tempor incididunt
-    ut labore et dolore magna aliqua.
+    Our team is committed to helping thousands of real estate investors close more deals by providing a diverse portfolio of leading options at competitive rates.
 `;
 export const ABOUT_SECTION_DESCRIPTION_TWO = `
-    Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    We understand what it takes to close more deals. That’s why we provide our partners with a diverse portfolio of leading options at competitive rates.
 `;
 
 export const CALL_TO_ACTION_BUTTON_BG_COLOR = "#FFFFFF";

@@ -8,12 +8,12 @@ export const Wrapper = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
   gap: 0.75rem;
+  flex-direction: column;
 `;
 
 export const Heading = styled.h1`
-  width: 45rem;
+  width: 49rem;
   font-weight: 700;
   line-height: 5rem;
   font-size: 4.375rem;
