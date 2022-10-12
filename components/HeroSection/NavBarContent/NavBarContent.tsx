@@ -1,6 +1,6 @@
 import * as Styles from "./NavBarContent.styles";
 
-import PhoneIcon from "public/icons/PhoneIcon.png";
+import PhoneIcon from "/icons/PhoneIcon.png";
 import { BUSINESS_PHONE_NUMBER } from "./NavBarContent.const";
 import { CallToActionButton } from "../../CallToActionButton/CallToActionButton";
 
