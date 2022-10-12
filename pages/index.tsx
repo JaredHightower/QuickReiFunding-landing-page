@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { HeroSection, AboutSection } from "../components";
+import { HeroSection, AboutSection, ServiceSection } from "../components";
 
 import styles from "../styles/Home.module.css";
 
@@ -20,6 +20,10 @@ const Home: NextPage = () => {
 
       <section>
         <AboutSection />
+      </section>
+
+      <section>
+        <ServiceSection />
       </section>
 
       <footer className={styles.footer}>
