@@ -5,45 +5,44 @@ export const ServiceSectionCard = styled.div`
   height: 26.25rem;
   background: #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 12px;
+  border-radius: 0.75rem;
 `;
 
 export const ServiceSectionCardTopBorder = styled.div`
-  height: 5px;
+  height: 0.313rem;
   background: #3dbdc7;
 `;
 
 export const ServiceSectionCardContent = styled.div`
-  width: 240px;
-  height: 420px;
-  margin: 20px;
+  width: 15rem;
+  height: 26.25rem;
+  margin: 1.25rem;
   background: #ffffff;
 `;
 
 export const ServiceSectionCardCircle = styled.div`
-  width: 112px;
-  height: 112px;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
-  margin-left: 20px;
-  margin-top: 30px;
+  margin-left: 1.25rem;
+  margin-top: 1.875rem;
   border: 1px solid #3dbdc7;
 `;
 
 export const ServiceSectionCardIcon = styled.img`
-  margin-top: 30px;
+  margin-top: 1.875rem;
   object-fit: cover;
 `;
 
 export const ServiceSectionCardHeading = styled.h1`
-  height: 30px;
-  margin-left: 20px;
+  height: 1.875rem;
+  margin-left: 1.25rem;
 
   font-family: "ITC Avant Garde Gothic Std";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
-  line-height: 30px;
-  /* identical to box height */
+  line-height: 1.875rem;
 
   display: flex;
   align-items: center;
@@ -53,34 +52,30 @@ export const ServiceSectionCardHeading = styled.h1`
 `;
 
 export const ServiceSectionCardDescription = styled.p`
-  width: 200px;
-  height: 78px;
-  margin-left: 20px;
+  width: 15.625rem;
+  height: 6.125rem;
+  margin-left: 1.25rem;
 
-  font-family: "ITC Avant Garde Gothic Std";
+  font-family: ITC Avant Garde Gothic W01 Bk;
+  text-align: left;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
-  /* or 162% */
-
-  display: flex;
-  align-items: center;
 
   color: #043236;
 `;
 
 export const ServiceSectionCardLearnMore = styled.a`
-  width: 200px;
-  height: 26px;
-  margin-left: 20px;
+  width: 12.5rem;
+  height: 1.625rem;
+  margin-left: 1.25rem;
 
   font-family: "ITC Avant Garde Gothic Std";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 26px;
-  /* identical to box height, or 173% */
 
   display: flex;
   align-items: center;

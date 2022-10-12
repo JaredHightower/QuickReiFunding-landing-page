@@ -13,7 +13,8 @@ export const ServiceSectionContainer = styled.div`
       rgba(234, 248, 249, 0) 80.88%
     ),
     url(/Image/ServiceSectionBackground.png);
-  mix-blend-mode: multiply;
+  background-size: cover;
+  mix-blend-mode: fill;
 `;
 
 export const ServiceSectionMessageContainer = styled.div`
@@ -35,13 +36,13 @@ export const ServiceSectionHeading = styled.h1`
 `;
 
 export const ServiceSectionDescription = styled.p`
-  width: 627px;
-  height: 56px;
+  width: 39.188rem;
+  height: 3.5rem;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
 
-  font-family: "ITC Avant Garde Gothic Std";
+  font-family: ITC Avant Garde Gothic W01 Bk;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -56,13 +57,13 @@ export const ServiceSectionCardContainer = styled.div`
   width: 75rem;
   flex-direction: row;
   gap: 1.438rem;
-  margin-bottom: 1.438rem; ;
+  margin-bottom: 1.438rem;
 `;
 export const ServiceSectionCard = styled.div`
   width: 24.063rem;
-  height: 420px;
+  height: 26.25rem;
 
   background: #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 12px;
+  border-radius: 0.75rem;
 `;
